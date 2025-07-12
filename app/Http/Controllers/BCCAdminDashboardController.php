@@ -7,7 +7,7 @@ use App\Models\User;
 use App\Models\BloodSample;
 use Illuminate\Support\Facades\Auth;
 
-class bccAdminDashboardController extends Controller
+class BCCAdminDashboardController extends Controller
 {
     public function index(Request $request)
     {
